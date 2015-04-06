@@ -14,5 +14,3 @@ Use "cd build/cmake && make -f PreMakefile && cmake . && make" to compile
 
 The project is under the MIT licence.
 
-
-

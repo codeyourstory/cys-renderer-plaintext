@@ -21,6 +21,7 @@ file(
 
 include_directories(
   ../../include/
+  ../../externals/cys-engine/include/
 )
 
 add_executable(cys-renderer-plaintext ${source_files})
