@@ -1,25 +1,14 @@
-[![Build Status](https://travis-ci.org/codeyourstory/cys-engine.svg?branch=master)](https://travis-ci.org/codeyourstory/cys-engine)
+[![Build Status](https://travis-ci.org/codeyourstory/cys-renderer-plaintext.svg?branch=master)](https://travis-ci.org/codeyourstory/cys-renderer-plaintext)
 
-# The Project
+# cys-renderer-plaintext
 
-CodeYourStory is a project whose purpose is:
-- to allow people to write stories through code
-- to allow people to generate videos, corresponding to the story written
-
-# The engine
-
-Purposes of cys-engine:
-
-- manage stories
-- manage characters
-- manage maps
-- manage events / timeline
+First Renderer implemented.
 
 # Compilation
 
 The compilation will be made via cmake.
 
-Use "cd build/cmake && cmake . && make" to compile
+Use "cd build/cmake && make -f PreMakefile && cmake . && make" to compile
 
 # Licence
 
