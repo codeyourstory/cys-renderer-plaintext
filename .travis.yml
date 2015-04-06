@@ -11,5 +11,5 @@ install:
   - sudo ln -s /usr/bin/g++-4.8 /usr/bin/g++
 script:
 # compile the engine
-  - cd build/cmake && cmake . && make
+  - cd build/cmake && make -f PreMakefile && cmake . && make
 # todo: run the tests 

@@ -1,0 +1,7 @@
+#
+# Compile CYS-Engine first
+#
+
+all:
+	cd ../../externals/cys-engine/build/cmake && cmake . && make
+	
